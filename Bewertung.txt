@@ -1,0 +1,34 @@
+Diese Datei dokumentiert die bisher in EP2 erreichten Punkte.
+
+-- Übung 1
+In der Vorbeurteilung wurde Ihre Abgabe mit +++ kategorisiert.
+Sie haben dann in der Übung 5 von 5 Punkte bekommen.
+Sie haben bei der Ad-hoc Aufgabe 4 von 4 Punkte bekommen.
+
+-- Übung 2
+In der Vorbeurteilung wurde Ihre Abgabe mit +~~+ kategorisiert.
+Sie haben folgendes Feedback bekommen: 2.2 Das Array sollte wachsen wenn kein Platz mehr da ist. 2.3 Bei add waere ein check ob es noch platz im array gibt gut und nie strings mit == sonder mit equals vergleichen. 
+Sie haben dann in der Übung 4 von 5 Punkte bekommen.
+Sie haben bei der Ad-hoc Aufgabe 4 von 4 Punkte bekommen.
+
+-- Übung 3
+In der Vorbeurteilung wurde Ihre Abgabe mit +~+~ kategorisiert.
+Sie haben folgendes Feedback bekommen: 3.2 add wurde nicht richtig implementiert. Bei dir kann es nur 3 knoten im baum geben da du left.value.add() aufrufst und nicht left.add. Dadurch kommen Racer die nicht in der selben Partcipation1 sein sollten zusammen.3.4: ParseStack1 fehlt. Ausserdem wurde das Konzept der LinkedList nicht ganz verstanden. Head sollte eigentlich nur in Participation1 gespeichert werden um das erste Element zu merken und nichtin jedem Knoten. Im knoten selbst muss man nur value und next speichern. 
+Sie haben dann in der Übung 4 von 5 Punkte bekommen.
+Sie haben bei der Ad-hoc Aufgabe 4 von 4 Punkte bekommen.
+
+-- Übung 4
+In der Vorbeurteilung wurde Ihre Abgabe mit ~++ kategorisiert.
+Sie haben folgendes Feedback bekommen: 4.1: Da es in einem Part1 Objekt mehrere Objekte mit dem selben Race geben kann muss man bei addAfter immer durch die ganze Liste iterieren weil man genau das letzte Element mit dem race haben will. (oder man iteriert rueckwaerts). 
+Sie haben dann in der Übung 3 von 5 Punkte bekommen.
+Sie haben bei der Ad-hoc Aufgabe 2 von 4 Punkte bekommen.
+
+-- Übung 5
+In der Vorbeurteilung wurde Ihre Abgabe mit +~~~ kategorisiert.
+Sie haben folgendes Feedback bekommen:  Da der HashCode nur 7 Werte annehmen kann kommt es leicht zu Kollisionen،5.2: lookUpRacer sollte nicht first zurueckgeben sondern durch das Part1 Objekt iterieren und auf equals achten، oft wurde vergessen den HashCode modulo der Laenge zu nehmen،5.3: hasNext sollte das Element ueberprufen was next zurueckgibt،sprich element an der Stelle iter. Participations implementiert nicht das Interface،5.4: Der Iterator soll ueber ein Part4 Objekt iterieren und alle Elemente zurueckgeben، Part4 implementiert nicht das Interface. 
+Sie haben dann in der Übung 3 von 5 Punkte bekommen.
+Sie haben bei der Ad-hoc Aufgabe 4 von 4 Punkte bekommen.
+
+
+Sie haben insgesamt 37 Punkte.
+

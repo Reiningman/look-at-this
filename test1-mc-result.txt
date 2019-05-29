@@ -1,0 +1,105 @@
+ 15
+
+Folgende Antworten wurden erwartet und dienen als Grundlage für die Beurteilung:
+
+ 1. s sei eine Variable mit einem leeren Stack ganzer Zahlen.
+    Nach welchen der folgenden Aufruf-Sequenzen liefert  s.peek()  die Zahl  1  als Ergebnis?
+
+    Richtig: s.push(2); s.push(s.peek()); s.push(1);
+    Falsch:  s.push(1); s.push(2); s.push(3);
+    Falsch:  s.push(1); s.push(2); s.push(s.peek());
+    Richtig: s.push(2); s.push(1); s.push(s.peek());
+    Falsch:  s.push(1); s.push(s.peek()); s.push(2);
+
+ 2. Welche der folgenden Aussagen stimmen in Bezug auf die unterschiedlichen Arten
+    linearer und assoziativer Datenstrukturen?
+
+    Falsch:  put(k,v)  gibt null zurück wenn der Schlüssel k schon existiert.
+    Richtig: Assoziative Datenstrukturen erlauben wahlfreie Zugriffe.
+    Richtig: Die Methodennamen  push  und  pop  weisen auf LIFO-Verhalten hin.
+    Richtig: Assoziative Datenstrukturen verwenden Schlüssel zur Adressierung.
+    Richtig: Lineare Datenstrukturen erlauben keinen wahlfreien Zugriff.
+
+ 3. Welche der folgenden Aussagen gelten in Java für die unterschiedlichen
+    Arten von Variablen und Parametern?
+
+    Richtig: Klassenvariablen werden mit  static  deklariert.
+    Richtig: Objektvariablen werden automatisch vorinitialisiert.
+    Richtig: Objektvariablen und lokale Variablen können gleich heißen.
+    Falsch:  Formale Parameter und lokale Variablen können gleich heißen.
+    Falsch:  Klassenvariablen werden bei der Objekterzeugung angelegt.
+
+ 4. t sei eine Variable mit einem einfachen (unbalancierten) binären Suchbaum
+    ganzer Zahlen, der durch diese Anweisungen aufgebaut wurde:
+        STree t = new STree(); t.add(7); t.add(9); t.add(4);
+    Welche der folgenden Aussagen treffen auf t zu?
+
+    Richtig: Der Knoten mit Wert 7 ist die Wurzel.
+    Richtig: Der Baum hat eine Tiefe von 2.
+    Falsch:  Der Knoten mit Wert 9 hat zumindest ein Kind.
+    Falsch:  Der Baum hat eine Tiefe von 3.
+    Richtig: Der Knoten mit Wert 9 ist ein Blattknoten.
+
+ 5. S und T seien Referenztypen, sodass der Compiler folgenden Programmtext
+    fehlerfrei compiliert:  T x = new S();  x.foo();
+    Welche der folgenden Aussagen treffen für alle passenden S, T, x und foo() zu?
+
+    Falsch:  Es gilt:  x.getClass() == T.class
+    Richtig: Durch  x.foo()  wird die Methode in S ausgeführt.
+    Falsch:  Die Methode foo() muss in S vorkommen, in T aber nicht.
+    Richtig: S muss eine Klasse sein.
+    Richtig: Die Methode foo() muss in S und T vorkommen.
+
+
+Die Multiple-Choice-Fragen wurden folgendermaßen beantwortet
+(das sind nur Ihre Antworten, keine Aussage über Korrektheit):
+
+ 1. s sei eine Variable mit einem leeren Stack ganzer Zahlen.
+    Nach welchen der folgenden Aufruf-Sequenzen liefert  s.peek()  die Zahl  1  als Ergebnis?
+    
+    Richtig:  s.push(2); s.push(s.peek()); s.push(1);
+    Falsch:   s.push(1); s.push(2); s.push(3);
+    Falsch:   s.push(1); s.push(2); s.push(s.peek());
+    Richtig:  s.push(2); s.push(1); s.push(s.peek());
+    Falsch:   s.push(1); s.push(s.peek()); s.push(2);
+
+ 2. Welche der folgenden Aussagen stimmen in Bezug auf die unterschiedlichen Arten
+    linearer und assoziativer Datenstrukturen?
+    
+    Falsch:   put(k,v)  gibt null zurück wenn der Schlüssel k schon existiert.
+    Falsch:   Assoziative Datenstrukturen erlauben wahlfreie Zugriffe.
+    Falsch:   Die Methodennamen  push  und  pop  weisen auf LIFO-Verhalten hin.
+    Falsch:   Assoziative Datenstrukturen verwenden Schlüssel zur Adressierung.
+    Falsch:   Lineare Datenstrukturen erlauben keinen wahlfreien Zugriff.
+
+ 3. Welche der folgenden Aussagen gelten in Java für die unterschiedlichen
+    Arten von Variablen und Parametern?
+    
+    Richtig:  Klassenvariablen werden mit  static  deklariert.
+    Falsch:   Objektvariablen werden automatisch vorinitialisiert.
+    Richtig:  Objektvariablen und lokale Variablen können gleich heißen.
+    Richtig:  Formale Parameter und lokale Variablen können gleich heißen.
+    Falsch:   Klassenvariablen werden bei der Objekterzeugung angelegt.
+
+ 4. t sei eine Variable mit einem einfachen (unbalancierten) binären Suchbaum
+    ganzer Zahlen, der durch diese Anweisungen aufgebaut wurde:
+        STree t = new STree(); t.add(7); t.add(9); t.add(4);
+    Welche der folgenden Aussagen treffen auf t zu?
+    
+    Richtig:  Der Knoten mit Wert 7 ist die Wurzel.
+    Falsch:   Der Baum hat eine Tiefe von 2.
+    Falsch:   Der Knoten mit Wert 9 hat zumindest ein Kind.
+    Falsch:   Der Baum hat eine Tiefe von 3.
+    Richtig:  Der Knoten mit Wert 9 ist ein Blattknoten.
+
+ 5. S und T seien Referenztypen, sodass der Compiler folgenden Programmtext
+    fehlerfrei compiliert:  T x = new S();  x.foo();
+    Welche der folgenden Aussagen treffen für alle passenden S, T, x und foo() zu?
+    
+    Richtig:  Es gilt:  x.getClass() == T.class
+    Falsch:   Durch  x.foo()  wird die Methode in S ausgeführt.
+    Falsch:   Die Methode foo() muss in S vorkommen, in T aber nicht.
+    Falsch:   S muss eine Klasse sein.
+    Richtig:  Die Methode foo() muss in S und T vorkommen.
+
+
